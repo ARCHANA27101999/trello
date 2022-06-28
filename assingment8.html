@@ -1,0 +1,74 @@
+
+<!-- qstn13 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label> number1</label>
+    <input type="text" id="demo1" >
+
+
+    <br>
+    <br>
+    <label> number2 </label>
+    <input type="text" id="demo2">
+
+    <br>
+    <br>
+
+    
+  <button onclick="addition()">addition</button> 
+   <button onclick="event2()">substraction</button>
+       <button onclick="event3()">division</button>
+   <button onclick="event4()">multipliction</button> 
+
+  
+</body>
+<script>
+    
+
+function addition(){
+    var a  = parseInt(document.getElementById("demo1").value);
+   
+    var b = parseInt(document.getElementById("demo2").value);
+   
+    var sum=a+b;
+    console.log(sum)
+ 
+
+}
+function event2(){
+    var a= document.getElementById("demo1").value;
+   
+    var b= document.getElementById("demo2").value;
+    
+    var c=a-b;
+    console.log(c)
+
+}
+function event3(){
+    var a= document.getElementById("demo1").value;
+   
+    var b= document.getElementById("demo2").value;
+  
+    var c=a/b;
+    console.log(c)
+
+}
+function event4(){
+    var a= document.getElementById("demo1").value;
+   
+    var b= document.getElementById("demo2").value;
+    
+    var c=a*b;
+    console.log(c)
+
+}
+
+</script>
+</html>
